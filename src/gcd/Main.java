@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args) { 
-		//최대공약수 최소공배수 구하기
+		//최대공약수(gcd) 최소공배수(lcm) 구하기
 	
 		System.out.println("두 정수를 입력하세요.");
 		Scanner scanner = new Scanner (System.in);
