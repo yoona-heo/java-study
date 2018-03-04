@@ -15,7 +15,7 @@ public class Main {
 		int vowelCount = 0;
 
 		for (int x = 0; x <= text.length() - 1; x++) {
-			for (int y = 0; y <= vowelArray.length-1; y++) {
+			for (int y = 0; y <= vowelArray.length - 1; y++) {
 				if (text.charAt(x) == vowelArray[y]) {
 					vowelCount++;
 				}
@@ -24,7 +24,7 @@ public class Main {
 		}
 
 		System.out.print(text + "의 자음 수: " + vowelCount + ", 모음 수: " + (text.length() - vowelCount));
-		
+
 		// 자음 consonant
 		// 모음 vowel
 	}
